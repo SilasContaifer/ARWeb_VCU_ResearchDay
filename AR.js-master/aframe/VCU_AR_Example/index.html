@@ -12,6 +12,9 @@
 <!-- BEGIN: Unity Compiled Events -->
 <script>
 var markerFound = 0;
+var Cube_0_CurrentPoint = 0;
+var Cube_0_SubtractTime = 0;
+var Cube_0_PointsArray = [new THREE.Vector3(0,0,0),new THREE.Vector3(0,0,0.1),new THREE.Vector3(0,0,0.4),new THREE.Vector3(0,0,0.5)];
 AFRAME.registerComponent('button', {
 init: function () {
 var elem = document.documentElement;
@@ -56,11 +59,34 @@ markerFound = 0;
         });
 },
 tick: function (totalTime, deltaTime) {
+var Cube_0 = document.querySelector("#Cube_0");
+var Cube_0_Speed = 0.4166667;
+var Cube_0_Time = (totalTime - Cube_0_SubtractTime) / 1000;
 var dTime = deltaTime / 1000;
 
 if (markerFound == 1) {
+Cube_0_Update();
 }
 
+
+            function Cube_0_Update() {
+                var newPosition = bezierPath(Cube_0_PointsArray[Cube_0_CurrentPoint], Cube_0_PointsArray[Cube_0_CurrentPoint + 1], Cube_0_PointsArray[Cube_0_CurrentPoint + 2], Cube_0_PointsArray[Cube_0_CurrentPoint + 3], Cube_0_Time *Cube_0_Speed);
+                if (Cube_0_Time*Cube_0_Speed>1) {
+                    Cube_0_CurrentPoint += 3;
+                    Cube_0_SubtractTime = totalTime;
+                    if (Cube_0_CurrentPoint >= Cube_0_PointsArray.length - 3) {
+                        Cube_0_CurrentPoint = 0;
+                    }
+                }
+
+
+                Cube_0.setAttribute('position', {
+                    x: newPosition.x,
+                    y: newPosition.y,
+                    z: newPosition.z,
+                });
+            }
+        
 
         function bezierEvaluate(p0, p1, p2, p3, t) {
             var u = (1 - t);                
@@ -105,7 +131,7 @@ if (markerFound == 1) {
 <!-- END: Add Image Target (marker) -->
 
 <!-- BEGIN: Unity Compiled Objects -->
-<a-box width="0.1" height="0.1" depth="0.1" class="intersectable" position="0.172 0.118 -0.17" rotation="0 0 0" color="#FFFFFF" 
+<a-box width="0.1" height="0.1" depth="0.1" class="intersectable" position="0 0 0" rotation="0 0 0" color="#FFFFFF" 
 ></a-box>
 <!-- END: Unity Compiled Objects -->
 
