@@ -1,2 +1,4 @@
-# ARWeb_VCU_ResearchDay_test
- For the Research and Career Day I am presenting this VR experience applied to human anatomy education
+# ARWeb VCU ResearchDay
+ For the **Research and Career Day**
+ 
+ I am presenting this Virtual Reality (VR) experience applied to Human Anatomy Education
