@@ -7,9 +7,10 @@ Does not require a special device, as can be accessed using a mobile phone or pe
 #How to Test
 Access this link https://silascontaifer.github.io/ARWeb_VCU_ResearchDay_test/examples/3dHeart.html
 Or Point your camera to this QR Code
-![text](https://...AnyImage.png)
 
-If you want to test different examples, please access the following link [Examples](https://silascontaifer.github.io/ARWeb_VCU_ResearchDay_test/)
+![QRcode](https://github.com/SilasContaifer/ARWeb_VCU_ResearchDay_test/blob/main/image/QrCode_Example_3dHeart.png)
+
+If you want to test different examples, please access the following link [examples](https://silascontaifer.github.io/ARWeb_VCU_ResearchDay_test/)
 
 #How to Use
 1. Clone or fork this repository
