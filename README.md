@@ -5,10 +5,10 @@ Does not require a special device, as can be accessed using a mobile phone or pe
 
 
 # How to Test
-Access this link https://silascontaifer.github.io/ARWeb_VCU_ResearchDay_test/examples/3dHeart.html
+Access this link https://silascontaifer.github.io/ARWeb_VCU_ResearchDay_test/examples/ArterialBloodVolume.html
 Or Point your camera to this QR Code
 
-<img src="https://github.com/SilasContaifer/ARWeb_VCU_ResearchDay_test/blob/main/image/QrCode_Example_3dHeart.png" width="200" height="200">
+<img src="https://github.com/SilasContaifer/ARWeb_VCU_ResearchDay_test/blob/main/image/QrCode_Example_ArterialBloodVolume.png" width="200" height="200">
 
 If you want to test different examples, please access the following link [examples](https://silascontaifer.github.io/ARWeb_VCU_ResearchDay_test/)
 
