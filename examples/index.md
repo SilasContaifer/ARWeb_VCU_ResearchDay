@@ -27,6 +27,8 @@
 
 		<a href="ArterialBloodVolumeZoom.html">
 		<b>Zoom In and Zoom Out:</b></a>
-Expand the size of the Blood Volume if you point the cursor to the 3D object, if you look out (the cursor will be outside the Arteril Blood Volume) and the 3D will scale down to their original size.
+Expand the size of the Blood Volume if you point the cursor to the 3D object, if you look out (the cursor will be outside the Arteril Blood Volume) and the 3D will scale down to their original size.<br>
+
+		<img src="https://raw.githubusercontent.com/SilasContaifer/ARWeb_VCU_ResearchDay_test/main/image/QrCode_Example_ArterialBloodVolumeZoom.png" width="200" height="200"><br>
 	</body>
 </html>
