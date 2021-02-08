@@ -21,9 +21,9 @@
 			Arterial Blood Volume
 		</h3>
 		<a href="ArterialBloodVolume.html">
-		<b>Inside Out:</b></a> Loads a 3D Blood Volume that rotates and get closer to the user so them can look directly inside of this 3D object.
-		<br><img src="https://raw.githubusercontent.com/SilasContaifer/ARWeb_VCU_ResearchDay_test/main/image/QrCode_Example_ArterialBloodVolume.png" width="200" height="200">
-		        <br><i>You can access the example above by reading this QR Code</i>
+		<b>Inside Out:</b></a> Loads a 3D Blood Volume that rotates and get closer to the user so them can look directly inside of this 3D object.<br>
+		<img src="https://raw.githubusercontent.com/SilasContaifer/ARWeb_VCU_ResearchDay_test/main/image/QrCode_Example_ArterialBloodVolume.png" width="200" height="200"><br>
+		        <i>You can access the example above by reading this QR Code</i><br>
 
 		<a href="ArterialBloodVolumeZoom.html">
 		<b>Zoom In and Zoom Out:</b></a>
